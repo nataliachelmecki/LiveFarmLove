@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DADA44A82475FFA900978E59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADA44A72475FFA900978E59 /* AppDelegate.swift */; };
+		DADA44AA2475FFA900978E59 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DADA44A92475FFA900978E59 /* GameScene.sks */; };
+		DADA44AC2475FFA900978E59 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = DADA44AB2475FFA900978E59 /* Actions.sks */; };
+		DADA44AE2475FFA900978E59 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADA44AD2475FFA900978E59 /* GameScene.swift */; };
+		DADA44B02475FFA900978E59 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADA44AF2475FFA900978E59 /* GameViewController.swift */; };
+		DADA44B32475FFA900978E59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DADA44B12475FFA900978E59 /* Main.storyboard */; };
+		DADA44B52475FFAC00978E59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DADA44B42475FFAC00978E59 /* Assets.xcassets */; };
+		DADA44B82475FFAD00978E59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DADA44B62475FFAD00978E59 /* LaunchScreen.storyboard */; };
+		DADA44C32475FFAD00978E59 /* LiveFarmLoveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADA44C22475FFAD00978E59 /* LiveFarmLoveTests.swift */; };
+		DADA44CE2475FFAD00978E59 /* LiveFarmLoveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADA44CD2475FFAD00978E59 /* LiveFarmLoveUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DADA44BF2475FFAD00978E59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DADA449C2475FFA900978E59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DADA44A32475FFA900978E59;
+			remoteInfo = LiveFarmLove;
+		};
+		DADA44CA2475FFAD00978E59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DADA449C2475FFA900978E59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DADA44A32475FFA900978E59;
+			remoteInfo = LiveFarmLove;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DADA44A42475FFA900978E59 /* LiveFarmLove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveFarmLove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADA44A72475FFA900978E59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DADA44A92475FFA900978E59 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DADA44AB2475FFA900978E59 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		DADA44AD2475FFA900978E59 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		DADA44AF2475FFA900978E59 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DADA44B22475FFA900978E59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DADA44B42475FFAC00978E59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DADA44B72475FFAD00978E59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DADA44B92475FFAD00978E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DADA44BE2475FFAD00978E59 /* LiveFarmLoveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveFarmLoveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADA44C22475FFAD00978E59 /* LiveFarmLoveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveFarmLoveTests.swift; sourceTree = "<group>"; };
+		DADA44C42475FFAD00978E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DADA44C92475FFAD00978E59 /* LiveFarmLoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveFarmLoveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADA44CD2475FFAD00978E59 /* LiveFarmLoveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveFarmLoveUITests.swift; sourceTree = "<group>"; };
+		DADA44CF2475FFAD00978E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DADA44A12475FFA900978E59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADA44BB2475FFAD00978E59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADA44C62475FFAD00978E59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DADA449B2475FFA900978E59 = {
+			isa = PBXGroup;
+			children = (
+				DADA44A62475FFA900978E59 /* LiveFarmLove */,
+				DADA44C12475FFAD00978E59 /* LiveFarmLoveTests */,
+				DADA44CC2475FFAD00978E59 /* LiveFarmLoveUITests */,
+				DADA44A52475FFA900978E59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DADA44A52475FFA900978E59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DADA44A42475FFA900978E59 /* LiveFarmLove.app */,
+				DADA44BE2475FFAD00978E59 /* LiveFarmLoveTests.xctest */,
+				DADA44C92475FFAD00978E59 /* LiveFarmLoveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DADA44A62475FFA900978E59 /* LiveFarmLove */ = {
+			isa = PBXGroup;
+			children = (
+				DADA44A72475FFA900978E59 /* AppDelegate.swift */,
+				DADA44A92475FFA900978E59 /* GameScene.sks */,
+				DADA44AB2475FFA900978E59 /* Actions.sks */,
+				DADA44AD2475FFA900978E59 /* GameScene.swift */,
+				DADA44AF2475FFA900978E59 /* GameViewController.swift */,
+				DADA44B12475FFA900978E59 /* Main.storyboard */,
+				DADA44B42475FFAC00978E59 /* Assets.xcassets */,
+				DADA44B62475FFAD00978E59 /* LaunchScreen.storyboard */,
+				DADA44B92475FFAD00978E59 /* Info.plist */,
+			);
+			path = LiveFarmLove;
+			sourceTree = "<group>";
+		};
+		DADA44C12475FFAD00978E59 /* LiveFarmLoveTests */ = {
+			isa = PBXGroup;
+			children = (
+				DADA44C22475FFAD00978E59 /* LiveFarmLoveTests.swift */,
+				DADA44C42475FFAD00978E59 /* Info.plist */,
+			);
+			path = LiveFarmLoveTests;
+			sourceTree = "<group>";
+		};
+		DADA44CC2475FFAD00978E59 /* LiveFarmLoveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DADA44CD2475FFAD00978E59 /* LiveFarmLoveUITests.swift */,
+				DADA44CF2475FFAD00978E59 /* Info.plist */,
+			);
+			path = LiveFarmLoveUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DADA44A32475FFA900978E59 /* LiveFarmLove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADA44D22475FFAD00978E59 /* Build configuration list for PBXNativeTarget "LiveFarmLove" */;
+			buildPhases = (
+				DADA44A02475FFA900978E59 /* Sources */,
+				DADA44A12475FFA900978E59 /* Frameworks */,
+				DADA44A22475FFA900978E59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveFarmLove;
+			productName = LiveFarmLove;
+			productReference = DADA44A42475FFA900978E59 /* LiveFarmLove.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DADA44BD2475FFAD00978E59 /* LiveFarmLoveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADA44D52475FFAD00978E59 /* Build configuration list for PBXNativeTarget "LiveFarmLoveTests" */;
+			buildPhases = (
+				DADA44BA2475FFAD00978E59 /* Sources */,
+				DADA44BB2475FFAD00978E59 /* Frameworks */,
+				DADA44BC2475FFAD00978E59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DADA44C02475FFAD00978E59 /* PBXTargetDependency */,
+			);
+			name = LiveFarmLoveTests;
+			productName = LiveFarmLoveTests;
+			productReference = DADA44BE2475FFAD00978E59 /* LiveFarmLoveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DADA44C82475FFAD00978E59 /* LiveFarmLoveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADA44D82475FFAD00978E59 /* Build configuration list for PBXNativeTarget "LiveFarmLoveUITests" */;
+			buildPhases = (
+				DADA44C52475FFAD00978E59 /* Sources */,
+				DADA44C62475FFAD00978E59 /* Frameworks */,
+				DADA44C72475FFAD00978E59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DADA44CB2475FFAD00978E59 /* PBXTargetDependency */,
+			);
+			name = LiveFarmLoveUITests;
+			productName = LiveFarmLoveUITests;
+			productReference = DADA44C92475FFAD00978E59 /* LiveFarmLoveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DADA449C2475FFA900978E59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = LiveAppLove;
+				TargetAttributes = {
+					DADA44A32475FFA900978E59 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					DADA44BD2475FFAD00978E59 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = DADA44A32475FFA900978E59;
+					};
+					DADA44C82475FFAD00978E59 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = DADA44A32475FFA900978E59;
+					};
+				};
+			};
+			buildConfigurationList = DADA449F2475FFA900978E59 /* Build configuration list for PBXProject "LiveFarmLove" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DADA449B2475FFA900978E59;
+			productRefGroup = DADA44A52475FFA900978E59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DADA44A32475FFA900978E59 /* LiveFarmLove */,
+				DADA44BD2475FFAD00978E59 /* LiveFarmLoveTests */,
+				DADA44C82475FFAD00978E59 /* LiveFarmLoveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DADA44A22475FFA900978E59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADA44B32475FFA900978E59 /* Main.storyboard in Resources */,
+				DADA44AA2475FFA900978E59 /* GameScene.sks in Resources */,
+				DADA44B52475FFAC00978E59 /* Assets.xcassets in Resources */,
+				DADA44B82475FFAD00978E59 /* LaunchScreen.storyboard in Resources */,
+				DADA44AC2475FFA900978E59 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADA44BC2475FFAD00978E59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADA44C72475FFAD00978E59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DADA44A02475FFA900978E59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADA44AE2475FFA900978E59 /* GameScene.swift in Sources */,
+				DADA44B02475FFA900978E59 /* GameViewController.swift in Sources */,
+				DADA44A82475FFA900978E59 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADA44BA2475FFAD00978E59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADA44C32475FFAD00978E59 /* LiveFarmLoveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADA44C52475FFAD00978E59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADA44CE2475FFAD00978E59 /* LiveFarmLoveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DADA44C02475FFAD00978E59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DADA44A32475FFA900978E59 /* LiveFarmLove */;
+			targetProxy = DADA44BF2475FFAD00978E59 /* PBXContainerItemProxy */;
+		};
+		DADA44CB2475FFAD00978E59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DADA44A32475FFA900978E59 /* LiveFarmLove */;
+			targetProxy = DADA44CA2475FFAD00978E59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DADA44B12475FFA900978E59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADA44B22475FFA900978E59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DADA44B62475FFAD00978E59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADA44B72475FFAD00978E59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DADA44D02475FFAD00978E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DADA44D12475FFAD00978E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DADA44D32475FFAD00978E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LiveFarmLove/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LiveAppLove.LiveFarmLove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DADA44D42475FFAD00978E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LiveFarmLove/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LiveAppLove.LiveFarmLove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DADA44D62475FFAD00978E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LiveFarmLoveTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LiveAppLove.LiveFarmLoveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveFarmLove.app/LiveFarmLove";
+			};
+			name = Debug;
+		};
+		DADA44D72475FFAD00978E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LiveFarmLoveTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LiveAppLove.LiveFarmLoveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveFarmLove.app/LiveFarmLove";
+			};
+			name = Release;
+		};
+		DADA44D92475FFAD00978E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LiveFarmLoveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LiveAppLove.LiveFarmLoveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LiveFarmLove;
+			};
+			name = Debug;
+		};
+		DADA44DA2475FFAD00978E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LiveFarmLoveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LiveAppLove.LiveFarmLoveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LiveFarmLove;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DADA449F2475FFA900978E59 /* Build configuration list for PBXProject "LiveFarmLove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADA44D02475FFAD00978E59 /* Debug */,
+				DADA44D12475FFAD00978E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADA44D22475FFAD00978E59 /* Build configuration list for PBXNativeTarget "LiveFarmLove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADA44D32475FFAD00978E59 /* Debug */,
+				DADA44D42475FFAD00978E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADA44D52475FFAD00978E59 /* Build configuration list for PBXNativeTarget "LiveFarmLoveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADA44D62475FFAD00978E59 /* Debug */,
+				DADA44D72475FFAD00978E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADA44D82475FFAD00978E59 /* Build configuration list for PBXNativeTarget "LiveFarmLoveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADA44D92475FFAD00978E59 /* Debug */,
+				DADA44DA2475FFAD00978E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DADA449C2475FFA900978E59 /* Project object */;
+}
