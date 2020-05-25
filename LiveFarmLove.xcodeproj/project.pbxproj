@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		109CC056247B6D0000FA56D5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109CC055247B6D0000FA56D5 /* SecondViewController.swift */; };
 		DADA44A82475FFA900978E59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADA44A72475FFA900978E59 /* AppDelegate.swift */; };
 		DADA44AA2475FFA900978E59 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DADA44A92475FFA900978E59 /* GameScene.sks */; };
 		DADA44AC2475FFA900978E59 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = DADA44AB2475FFA900978E59 /* Actions.sks */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		109CC055247B6D0000FA56D5 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		DADA44A42475FFA900978E59 /* LiveFarmLove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveFarmLove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DADA44A72475FFA900978E59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DADA44A92475FFA900978E59 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				DADA44AD2475FFA900978E59 /* GameScene.swift */,
 				DADA44AF2475FFA900978E59 /* GameViewController.swift */,
 				DADA44B12475FFA900978E59 /* Main.storyboard */,
+				109CC055247B6D0000FA56D5 /* SecondViewController.swift */,
 				DADA44B42475FFAC00978E59 /* Assets.xcassets */,
 				DADA44B62475FFAD00978E59 /* LaunchScreen.storyboard */,
 				DADA44B92475FFAD00978E59 /* Info.plist */,
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				109CC056247B6D0000FA56D5 /* SecondViewController.swift in Sources */,
 				DADA44AE2475FFA900978E59 /* GameScene.swift in Sources */,
 				DADA44B02475FFA900978E59 /* GameViewController.swift in Sources */,
 				DADA44A82475FFA900978E59 /* AppDelegate.swift in Sources */,
