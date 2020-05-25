@@ -14,7 +14,11 @@ class GameScene: SKScene {
     private var label : SKLabelNode?
     private var spinnyNode : SKShapeNode?
     
+   
+
     override func didMove(to view: SKView) {
+        
+        player = self.childNodeWithName("player") as? SKSpriteNode
         
         // Get label node from scene and store it for use later
         self.label = self.childNode(withName: "//helloLabel") as? SKLabelNode
